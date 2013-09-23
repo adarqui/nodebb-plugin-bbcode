@@ -1,0 +1,10 @@
+{
+    "id": "nodebb-plugin-bbcode",
+    "name": "BBcode Parser",
+    "description": "A BBcode parser for NodeBB",
+    "url": "https://github.com/adarqui/nodebb-plugin-bbcode",
+    "library": "./index.js",
+    "hooks": [
+        { "hook": "filter:post.parse", "method": "bbcodeify", "priority": 5 }
+    ]
+}

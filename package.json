@@ -1,0 +1,33 @@
+{
+  "name": "nodebb-plugin-bbcode",
+  "version": "0.1.0",
+  "description": "A bbcode parser for NodeBB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adarqui/nodebb-plugin-bbcode"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "bbcode"
+  ],
+  "author": {
+    "name": "adarqui",
+    "email": "andrew.darqui@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/adarqui/nodebb-plugin-bbcode/issues"
+  },
+  "dependencies": {
+	  "bbcode" : "git://github.com/adarqui/node-bbcode.git#master"
+  },
+  "readme": "#README - npm install, go to nodebburl/admin, activate, restart nodebb. This is basically a rip of julianlam's nodebb-plugin-markdown.",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-bbcode@0.1.0",
+  "_from": "nodebb-plugin-bbcode@~0.1.0"
+}
