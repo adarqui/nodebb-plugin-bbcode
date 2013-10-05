@@ -1,0 +1,3 @@
+#!/bin/bash
+export NODE_PATH=`pwd`/../../
+node test_nodebb-plugin-bbcode.js $@
