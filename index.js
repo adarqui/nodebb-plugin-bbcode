@@ -6,7 +6,7 @@ var	bbcode = require('bbcode'),
 				text : raw,
 				removeMisalignedTags : false,
 				addInLineBreaks : false,
-			})
+			}).html;
 		}
 	};
 
